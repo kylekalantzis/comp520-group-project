@@ -1,1 +1,2 @@
 -- Insert code here
+-- This is the line comment to show how Git works
