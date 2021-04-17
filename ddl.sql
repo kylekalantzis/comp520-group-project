@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS comp520project1;
+CREATE DATABASE comp520project1;
+USE comp520project1;
