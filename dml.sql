@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 -- Insert code here
 -- This is the line comment to show how Git works
 -- Test from james
@@ -30,5 +29,3 @@ VALUES
 ('10', '17', 'Pittsburgh, Pennsylvania', 'Heinz Field', 'Pittsburgh, Pennsylvania', 'Blitzburgh'),
 ('37', '31', 'Kansas City, Missouri', 'Arrowhead Stadium', 'Kansas City, Missouri', 'Chiefs Nation'),
 ('13', '3', 'Atlanta, Georgia', 'Mercedes-Benz Stadium', 'Atlanta, Georgia', 'Greatest Show on Turf');
-
->>>>>>> c06c01506443a10ff68fa44420f87059bd90eb9d
