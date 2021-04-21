@@ -6,7 +6,8 @@ CREATE TABLE patriots(
 );
 CREATE TABLE awayGames(
     awayGame_num INT(11) PRIMARY KEY AUTO_INCREMENT,
-    game_score INT(11) NOT NULL,
+    pats_score INT(11) NOT NULL,
+    opp_score INT(11) NOT NULL,
     "location" VARCHAR(255) NOT NULL,
     stadium VARCHAR(255) NOT NULL,
     opp_team_location VARCHAR(255) NOT NULL,
@@ -14,7 +15,8 @@ CREATE TABLE awayGames(
 );
 CREATE TABLE homeGames(
     homeGame_num INT(11) PRIMARY KEY AUTO_INCREMENT,
-    game_score INT(11) NOT NULL,
+    pats_score INT(11) NOT NULL,
+    opp_score INT(11) NOT NULL,,
     "location" VARCHAR(255) NOT NULL,
     stadium VARCHAR(255) NOT NULL,
     opp_team_location VARCHAR(255) NOT NULL,
