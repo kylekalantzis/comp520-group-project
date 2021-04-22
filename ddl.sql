@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS comp520project1;
 CREATE DATABASE comp520project1;
 USE comp520project1;
 CREATE TABLE patriots(
-    id INT(11) PRIMARY KEY AUTO_INCREMENT,
+    id INT(11) PRIMARY KEY AUTO_INCREMENT
 );
 CREATE TABLE awayGames(
     awayGame_num INT(11) PRIMARY KEY AUTO_INCREMENT,
@@ -13,7 +13,8 @@ CREATE TABLE awayGames(
     opp_team_location VARCHAR(255) NOT NULL,
     opp_team_n VARCHAR(255) NOT NULL,
     opp_team_nick VARCHAR(255) NOT NULL,
-    game_date VARCHAR(255) NOT NULL
+    game_date VARCHAR(255) NOT NULL,
+    opp_owner VARCHAR(255) NOT NULL
 );
 CREATE TABLE homeGames(
     homeGame_num INT(11) PRIMARY KEY AUTO_INCREMENT,
@@ -24,5 +25,6 @@ CREATE TABLE homeGames(
     opp_team_location VARCHAR(255) NOT NULL,
     opp_team_n VARCHAR(255) NOT NULL,
     opp_team_nick VARCHAR(255) NOT NULL,
-    game_date VARCHAR(255) NOT NULL
+    game_date VARCHAR(255) NOT NULL,
+    opp_owner VARCHAR(255) NOT NULL
 );
