@@ -11,7 +11,9 @@ CREATE TABLE awayGames(
     location VARCHAR(255) NOT NULL,
     stadium VARCHAR(255) NOT NULL,
     opp_team_location VARCHAR(255) NOT NULL,
-    opp_team_nick VARCHAR(255) NOT NULL
+    opp_team_n VARCHAR(255) NOT NULL,
+    opp_team_nick VARCHAR(255) NOT NULL,
+    game_date VARCHAR(255) NOT NULL
 );
 CREATE TABLE homeGames(
     homeGame_num INT(11) PRIMARY KEY AUTO_INCREMENT,
@@ -20,6 +22,7 @@ CREATE TABLE homeGames(
     location VARCHAR(255) NOT NULL,
     stadium VARCHAR(255) NOT NULL,
     opp_team_location VARCHAR(255) NOT NULL,
-    opp_team_nick VARCHAR(255) NOT NULL
+    opp_team_n VARCHAR(255) NOT NULL,
+    opp_team_nick VARCHAR(255) NOT NULL,
+    game_date VARCHAR(255) NOT NULL
 );
-
