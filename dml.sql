@@ -35,3 +35,7 @@ UNION
 SELECT pats_score, opp_team_n, game_date
 FROM homeGames
 WHERE pats_score >= opp_score;
+
+SELECT opp_team_n, IF (opp_score - pats_score >= 7, "Yes", "No") as '7 or more loss' FROM homeGames WHERE opp_score > pats_score
+UNION
+SELECT opp_team_n, IF (opp_score - pats_score >= 7, "Yes", "No")  as '7 or more loss' FROM awayGames WHERE opp_score > pats_score;
