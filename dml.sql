@@ -28,11 +28,11 @@ SELECT opp_team_nick, opp_team_location, stadium, opp_owner, opp_score, pats_sco
 UNION
 SELECT opp_team_nick, opp_team_location, stadium, opp_owner, opp_score, pats_score FROM awayGames WHERE opp_score > pats_score;
 
-SELECT pats_score, opp_team_n, game_date 
+SELECT pats_score, opp_score, opp_team_n, game_date 
 FROM awayGames
 WHERE pats_score >= opp_score
 UNION
-SELECT pats_score, opp_team_n, game_date
+SELECT pats_score, opp_score, opp_team_n, game_date
 FROM homeGames
 WHERE pats_score >= opp_score;
 
