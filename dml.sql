@@ -1,6 +1,3 @@
--- Insert code here
--- This is the line comment to show how Git works
--- Test from james
 INSERT INTO homeGames (pats_score, opp_score, location, stadium, opp_team_location, opp_team_n, opp_team_nick, game_date, opp_owner)
 VALUES
 ('27', '20', 'Foxborough, Massachusetts', 'Gillette Stadium', 'Houston, Texas', 'Texans', 'Bulls on Parade', '2018-9-9', 'Bob McNair'),
